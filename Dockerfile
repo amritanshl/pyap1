@@ -6,7 +6,7 @@ COPY requirement.txt .
 RUN pip install --no-cache-dir -r requirement.txt
 
 COPY app.py . 
-COPY templates/ ./templates
+COPY template/ ./template
 
 RUN mkdir /data
 
