@@ -10,6 +10,6 @@ COPY templates/ ./templates
 
 RUN mkdir /data
 
-EXPOSE 5000
+EXPOSE 5002
 
 CMD [ "python", "app.py" ]
